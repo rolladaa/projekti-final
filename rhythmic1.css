@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Croissant One';
+    background-color: #54785A;
+}
+nav{
+    background-color: #324836;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu";
+    align-items: center;
+}
+nav img{
+    height: 90px;
+    width: 100px;
+}
+nav h1{
+    grid-area: logo;
+}
+nav ul{
+    grid-area: menu;
+    list-style: none;
+    justify-self: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav input,nav label{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    nav{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 1fr;
+        grid-template-areas: "logo hamburger" "menu menu";
+        height: auto;
+    }
+}
+.MAIN{
+    position: absolute;
+    width: 619px;
+    height: 574px;
+    left: -24px;
+    top: -150px;
+}
+.MAIN h1{
+    position: absolute;
+    width: 619px;
+    height: 437px;
+    left: -24px;
+    top: 356px;
+    font-family: 'Emblema One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    text-align: center;
+    color: #B7CDBA;
+}
+.MAIN button{
+    position: absolute;
+    width: 350px;
+    height: 72px;
+    left: 110px;
+    top: 800px;
+    background: #7BA381;
+    border-radius: 100px;
+}
+.MAIN button a{
+    color: white;
+    text-decoration: none;
+}
+.pics{
+    position: absolute;
+    width: 813px;
+    height: 771px;
+    left: 0px;
+    top: -100px;
+    filter: drop-shadow(10px 4px 7px #19241B);
+}
+.a{
+    position: absolute;
+    width: 356px;
+    height: 337px;
+    left: 578px;
+    top: 543px;
+}
+.b{
+    position: absolute;
+    width: 308px;
+    height: 306px;
+    left: 677px;
+    top: 263px;
+}
+.c{
+    position: absolute;
+    width: 266px;
+    height: 296px;
+    left: 985px;
+    top: 214px;
+}
+.d{
+    position: absolute;
+    width: 428px;
+    height: 375px;
+    left: 928px;
+    top: 510px;
+    transform: rotate(-180deg);
+}
+.e{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 848px;
+    top: 470px;
+}
+.info{
+    position: absolute;
+    width: 1440px;
+    height: 431px;
+    left: 0px;
+    top: 824px;
+}
+.info img{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 50px;
+    top: 55.34px;
+}
+.info p{
+    position: absolute;
+    width: 961.71px;
+    height: 187.39px;
+    left: 411.43px;
+    top: 149.82px;
+    font-family: 'Croissant One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.footer{
+    left: 0px;
+    top: 1024px;
+    position: relative;
+    width: 1440px;
+    height: 343px;
+    background-color: #19241B;
+}
+.ab{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 220px;
+    top: 104px;
+}
+.ac{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 494px;
+    top: 104px;
+}
+.ad{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 768px;
+    top: 104px;
+}
+.ae{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1042px;
+    top: 104px;
+}
+.footer h2{
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+}
+.ba{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 220px;
+    top: 241px;
+}
+.bc{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 494px;
+    top: 241px;
+}
+.bd{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 768px;
+    top: 241px;
+}
+.be{
+    position: absolute;
+    width: 261px;
+    height: 45px;
+    left: 982px;
+    top: 241px;
+}

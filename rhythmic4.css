@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Croissant One';
+    background-color: #19241B;
+ }
+nav{
+    background-color: #324836;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu";
+    align-items: center;
+}
+nav img{
+    height: 90px;
+    width: 100px;
+}
+nav h1{
+    grid-area: logo;
+}
+nav ul{
+    grid-area: menu;
+    list-style: none;
+    justify-self: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav input,nav label{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    nav{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 1fr;
+        grid-template-areas: "logo hamburger" "menu menu";
+        height: auto;
+    }
+}
+.reg{
+    background-color: rgba(49, 111, 60, 0.26);
+    width:926px;
+height: 550px;
+margin-left: 200px;
+margin-top: 100px;
+border-radius: 40px;
+}
+.reg input{
+    display: block;
+    margin: auto auto;
+    background-color:rgba(49, 111, 60, 0.26) ;
+    border: 0.8px solid white;
+    padding-left: 10px;
+    width: 180px;
+    height: 30px;
+    margin-left: 60px;
+    top: 20px;
+}
+.reg label{
+    position: relative;
+    display: block;
+    text-align: center;
+ margin-top: 10px;  
+ color: white;
+    width: 200px;
+    height: 35px;
+}
+.reg h1{
+    font-family: 'Emblema One';
+    color: white;
+    size: 200px;
+  margin-left: 80px;
+}
+.reg img{
+    margin-left: 350px;
+    margin-top: -550px;
+    height: 525px;
+    width: 550px;
+    border-radius: 20px;
+}
+.reg button{
+    background: #63906B;
+    border-radius: 20px;
+    margin-left: -600px;
+    position: absolute;
+width: 362px;
+height: 54px;
+border: #63906B solid ;
+}
+.reg button h1{
+   margin-left: -5px;
+    font-size: 30px;
+}

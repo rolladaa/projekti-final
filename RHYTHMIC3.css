@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Croissant One';
+    background-image: url(https://i.pinimg.com/564x/53/69/78/53697872025477160a3f64348988fcca.jpg) ;
+    background-size: cover;
+ }
+nav{
+    background-color: #324836;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu";
+    align-items: center;
+}
+nav img{
+    height: 90px;
+    width: 100px;
+}
+nav h1{
+    grid-area: logo;
+}
+nav ul{
+    grid-area: menu;
+    list-style: none;
+    justify-self: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav input,nav label{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    nav{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 1fr;
+        grid-template-areas: "logo hamburger" "menu menu";
+        height: auto;
+    }
+}
+.footer{
+    left: -250px;
+    top:200px;
+    position: relative;
+    width: 1440px;
+    height: 343px;
+    background-color: #19241B;
+}
+.ab{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 220px;
+    top: 104px;
+}
+.ac{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 494px;
+    top: 104px;
+}
+.ad{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 768px;
+    top: 104px;
+}
+.ae{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1042px;
+    top: 104px;
+}
+.footer h2{
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+}
+.ba{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 220px;
+    top: 241px;
+}
+.bc{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 494px;
+    top: 241px;
+}
+.bd{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 768px;
+    top: 241px;
+}
+.be{
+    position: absolute;
+    width: 261px;
+    height: 45px;
+    left: 982px;
+    top: 241px;
+}
+main{
+    background-color: hwb(131 10% 86% / 0.50);
+    position: relative;
+    left:250px;
+    width: 950px;
+    height: 530px;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+#mainForm input [type="text"]
+input[type="Password"]{
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid  black;
+    border-radius: 3px;
+    height: 20px;
+}
+main input{
+    display: block;
+    margin: auto auto;
+    padding-left: 10px;
+    width: 250px;
+    height: 50px;
+    margin-left: 550px;
+}
+main label{
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    width: 250px;
+    height: 50px;
+}
+.checkbox{
+width: 25px;
+height: 25px;
+margin-top: 50px;
+margin-left: 550px;
+}
+.tt{
+    color: white;
+    text-decoration: none;
+}
+.submit{
+    width: 250px;
+    height: 50px;
+    background-color: #273128;
+    margin-left: 540px;
+ padding: 0;
+ border: 0;
+ margin-top: 60px;
+ border-radius: 10px;   
+}
+.imgi{
+    height: 480px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: -430px;
+    margin-left: 10px;
+}
+.rmm{
+   position: absolute;
+   color: white;
+   font-size: 18px;
+   margin-top: -22px;
+width: 200.39px;
+height: 17.52px;
+left: 590px;
+}
+.ona{
+    font-size: 18px;
+    margin-top: 10px;
+    position: relative;
+    color: white;
+text-decoration: none;
+    left: 600px;
+}

@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Croissant One';
+    background-color: #324836;
+}
+nav{
+    background-color: #324836;
+    color: rgb(255, 255, 255);
+    padding: 0 20px;
+    height: 100px;
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "logo menu";
+    align-items: center;
+}
+nav img{
+    height: 90px;
+    width: 100px;
+}
+nav h1{
+    grid-area: logo;
+}
+nav ul{
+    grid-area: menu;
+    list-style: none;
+    justify-self: center;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav input,nav label{
+    display: none;
+}
+@media screen and (max-width:768px) {
+    nav{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 80px 1fr;
+        grid-template-areas: "logo hamburger" "menu menu";
+        height: auto;
+    }
+}
+.TL{
+    position: absolute;
+    width: 1440px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+    background-color: #19241B;
+}
+.TL h1{
+    position: absolute;
+    width: 753px;
+    height: 118px;
+    left: 434px;
+    top: -5px;
+    font-family: 'Emblema One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 115px;
+    color: #FFFFFF;
+}
+.ARTISTS{
+    Position: absolute;
+    width: 1307px;
+    height: 641px;
+    left: 63px;
+    top: 346px;
+}
+.DRAKE{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 63px;
+    border-radius: 360px;
+    top: 136px;
+    background: #D9D9D9;
+}
+.DRAKE img{
+    position: absolute;
+    width: 210.43px;
+    height: 220px;
+    left: 25px;
+    border-radius: 360px;
+    top: 18px;
+}
+.ARTISTS h1{
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 51px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.DRAKE h1{
+    position: absolute;
+    width: 98px;
+    height: 51px;
+    left: 70px;
+    top: 270px;
+}
+.SZA{
+   position: absolute;
+   width: 260px;
+   height: 260px;
+   left: 280px;
+   top: -100px;
+   border-radius: 360px;
+   background: #D9D9D9; 
+}
+.SZA img{
+    position: absolute;
+    width: 210.43px;
+    height: 220px;
+    left: 25px;
+    top: 18px;
+    border-radius: 360px;
+}
+.SZA h1{
+    position: absolute;
+    width: 98px;
+    height: 51px;
+    left: 90px;
+    top: 270px;
+}
+.THEWEEKND{
+   position: absolute;
+   width: 260px;
+   height: 260px;
+   left: 500px;
+   top: 136px;
+   border-radius: 360px;
+   background: #D9D9D9; 
+}
+.THEWEEKND img{
+   position: absolute;
+    width: 210.43px;
+    height: 220px;
+    left: 25px;
+    top: 18px;
+    border-radius: 360px; 
+}
+.THEWEEKND h1{
+    position: absolute;
+    width: 289px;
+    height: 51px;
+    left: 0px;
+    top: 270px;
+}
+.RIHANNA{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 937px;
+    top: 136px;
+    border-radius: 360px;
+    background: #D9D9D9;  
+}
+.RIHANNA img{
+    position: absolute;
+    width: 210.43px;
+    height: 220px;
+    left: 25px;
+    top: 18px;
+    border-radius: 360px; 
+}
+.RIHANNA h1{
+    position: absolute;
+    width: 289px;
+    height: 51px;
+    left: 0px;
+    top: 270px;
+}
+.MILEYCYRUS{
+    position: absolute;
+    width: 260px;
+    height: 260px;
+    left: 710px;
+    top: -100px;
+    border-radius: 360px;
+    background: #D9D9D9;
+}
+
+ .MILEYCYRUS img{
+     position: absolute;
+     width: 210.43px;
+     height: 220px;
+     left: 25px;
+     top: 18px;
+     border-radius: 360px;
+ }
+ .MILEYCYRUS h1{
+     position: absolute;
+     width: 98px;
+     height: 51px;
+     left: 70px;
+     top: 270px;
+    }
+ .dreki{
+    position: absolute;
+    width: 1392px;
+    height: 476px;
+    left: 31px;
+    top: 924px;
+    font-family: 'Croissant One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.dreki h1{
+    position: absolute;
+    font-size: 32px;
+    width: 192px;
+    height: 45px;
+    left: 624px;
+    top: -16px;
+}
+.dreki h2{
+    position: absolute;
+    font-size: 25px;
+    width: 267px;
+    height: 135px;
+    left: 624px;
+    top: 76px;
+}
+.dreki p{
+    position: absolute;
+    font-size: 25px;
+    width: 503px;
+    height: 357px;
+    left: 920px;
+    top: 45px;
+}
+.line{
+    position: absolute;
+width: 835.01px;
+height: 0px;
+left: 488px;
+top: 300px;
+border: 1.8px solid #242833;
+}
+.szaja{
+    position: absolute;
+    width: 1316px;
+    height: 330px;
+    left: 55px;
+    top: 889px;
+    font-family: 'Croissant One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.szaja h2{
+    position: absolute;
+    width: 228px;
+    height: 135px;
+    left: 600px;
+    top: 458px;
+}
+.szaja p{
+    position: absolute;
+    width: 477px;
+    height: 204px;
+    left: 30px;
+    top: 432px;
+}
+.szaja img{
+    position: absolute;
+    width: 330px;
+    height: 312px;
+    left: 941px;
+    top: 389px;
+}
+.line1{
+    position: absolute;
+width: 835.01px;
+height: 0px;
+left: -20px;
+top: 720px;
+border: 1.8px solid #FF8A9D;
+}
+.thew{
+    position: absolute;
+    width: 1316px;
+    height: 330px;
+    left: 55px;
+    top: 1689px;
+    font-family: 'Croissant One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+.thew h2{
+    position: absolute;
+    width: 228px;
+    height: 135px;
+    left: 600px;
+    top: 58px;
+}
+.thew p{
+    position: absolute;
+    width: 477px;
+    height: 204px;
+    left: 1030px;
+    top: 32px;
+}
+.line2{
+    position: absolute;
+width: 835.01px;
+height: 0px;
+left: 488px;
+top: 320px;
+border: 1.8px solid #CE7A18;
+}
+.rih{
+    position: absolute;
+    width: 1316px;
+    height: 330px;
+    left: 55px;
+    top: 1680px;
+    font-family: 'Croissant One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+    color: #FFFFFF;
+}  
+.rih h2{
+    position: absolute;
+    width: 228px;
+    height: 135px;
+    left: 600px;
+    top: 458px;
+}
+.rih p{
+    position: absolute;
+    width: 477px;
+    height: 204px;
+    left: 30px;
+    top: 432px;
+}
+.rih img{
+    position: absolute;
+    width: 330px;
+    height: 312px;
+    left: 941px;
+    top: 389px;
+}
+.line3{
+    position: absolute;
+width: 835.01px;
+height: 0px;
+left: -20px;
+top: 720px;
+border: 1.8px solid #FF8A9D;
+}
+.mc{
+position: absolute;
+width: 1316px;
+height: 330px;
+left: 55px;
+top: 2489px;
+font-family: 'Croissant One';
+font-style: normal;
+font-weight: 400;
+line-height: 45px;
+color: #FFFFFF;
+}
+.mc h2{
+position: absolute;
+width: 228px;
+height: 135px;
+left: 600px;
+top: 58px;
+}
+.mc p{
+position: absolute;
+width: 477px;
+height: 204px;
+left: 1030px;
+top: 32px;
+}
+.line4{
+position: absolute;
+width: 835.01px;
+height: 0px;
+left: 488px;
+top: 340px;
+border: 1.8px solid #CE7A18;
+}
+.footer{
+    left: 0px;
+    top: 2824px;
+    position: relative;
+    width: 1440px;
+    height: 343px;
+    background-color: #19241B;
+}
+.ab{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 220px;
+    top: 104px;
+}
+.ac{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 494px;
+    top: 104px;
+}
+.ad{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 768px;
+    top: 104px;
+}
+.ae{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1042px;
+    top: 104px;
+}
+.footer h2{
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 45px;
+    color: #000000;
+}
+.ba{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 220px;
+    top: 241px;
+}
+.bc{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 494px;
+    top: 241px;
+}
+.bd{
+    position: absolute;
+    width: 103px;
+    height: 45px;
+    left: 768px;
+    top: 241px;
+}
+.be{
+    position: absolute;
+    width: 261px;
+    height: 45px;
+    left: 982px;
+    top: 241px;
+}
+@media (max-width: 600px) {
+
+}
+@media (min-width: 600px) and (max-width: 900px){
+
+}
+@media (min-width: 900px) {
+    
+}
